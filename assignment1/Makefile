@@ -1,4 +1,8 @@
-
-obj-m := helloworld.o
+# set environment variable KDIR
+# KDIR = /lib/modules/$(shell uname -r)/build
+obj-m += helloworld.o
 all:
-	make -C /home/osboxes/linux SUBDIRS=$(PWD) modules
+	make -C $(KDIR) SUBDIRS=$(CURDIR) modules
+
+clean:
+	make -C $(KDIR) SUBDIRS=$(CURDIR) clean

@@ -1,0 +1,5 @@
+make -C /lib/modules/4.8.0-26-generic/build SUBDIRS=/home/osboxes/shackdyptula/assignment1 clean
+make[1]: Entering directory '/usr/src/linux-headers-4.8.0-26-generic'
+  CLEAN   /home/osboxes/shackdyptula/assignment1/.tmp_versions
+  CLEAN   /home/osboxes/shackdyptula/assignment1/Module.symvers
+make[1]: Leaving directory '/usr/src/linux-headers-4.8.0-26-generic'
