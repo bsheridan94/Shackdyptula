@@ -1,5 +1,9 @@
 # set environment variable KDIR
-# KDIR = /lib/modules/$(shell uname -r)/build
+
+ifndef KDIR
+    KDIR = /lib/modules/$(shell uname -r)/build
+endif
+
 obj-m += helloworld.o
 all:
 	make -C $(KDIR) SUBDIRS=$(CURDIR) modules
