@@ -10,13 +10,13 @@
 
 static int hello_init(void)
 {
-	printk(KERN_ALERT "Hello World!\r\n");
+	printk(KERN_DEBUG "Hello World!\r\n");
 	return 0;
 }
 
 static void hello_exit(void)
 {
-	printk(KERN_ALERT "Hello World has been unloaded\r\n");
+	printk(KERN_DEBUG "Hello World has been unloaded\r\n");
 }
 
 module_init(hello_init);

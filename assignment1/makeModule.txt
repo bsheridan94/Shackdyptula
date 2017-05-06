@@ -1,8 +1,8 @@
-make -C /lib/modules/4.8.0-26-generic/build SUBDIRS=/home/osboxes/shackdyptula/assignment1 modules
-make[1]: Entering directory '/usr/src/linux-headers-4.8.0-26-generic'
-  CC [M]  /home/osboxes/shackdyptula/assignment1/helloworld.o
+make -C /lib/modules/4.11.0shackdyptula-dirty/build SUBDIRS=/home/osboxes/Shackdyptula/assignment1 modules
+make[1]: Entering directory '/home/osboxes/linux'
+  CC [M]  /home/osboxes/Shackdyptula/assignment1/helloworld.o
   Building modules, stage 2.
   MODPOST 1 modules
-  CC      /home/osboxes/shackdyptula/assignment1/helloworld.mod.o
-  LD [M]  /home/osboxes/shackdyptula/assignment1/helloworld.ko
-make[1]: Leaving directory '/usr/src/linux-headers-4.8.0-26-generic'
+  CC      /home/osboxes/Shackdyptula/assignment1/helloworld.mod.o
+  LD [M]  /home/osboxes/Shackdyptula/assignment1/helloworld.ko
+make[1]: Leaving directory '/home/osboxes/linux'

@@ -1,0 +1,27 @@
+From 759f0fdce7d90b2ae726d1ded8d36af8dbda1126 Mon Sep 17 00:00:00 2001
+From: Brian Sheridan <btsheridan94@gmail.com>
+Date: Mon, 1 May 2017 07:36:12 +0100
+Subject: [PATCH] Modified "EXTRAVERSION" in Makefile to contain
+ "shackdyptula".
+
+Signed-off-by: Brian Sheridan <btsheridan94@gmail.com>
+---
+ Makefile | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Makefile b/Makefile
+index 4b074a9..5e3948a 100644
+--- a/Makefile
++++ b/Makefile
+@@ -1,7 +1,7 @@
+ VERSION = 4
+ PATCHLEVEL = 11
+ SUBLEVEL = 0
+-EXTRAVERSION =
++EXTRAVERSION = shackdyptula
+ NAME = Fearless Coyote
+ 
+ # *DOCUMENTATION*
+-- 
+2.9.3
+
