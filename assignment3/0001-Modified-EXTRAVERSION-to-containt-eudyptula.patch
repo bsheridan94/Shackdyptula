@@ -1,0 +1,26 @@
+From 92ed54513b22422758ff5135edf2a28dce88a4f5 Mon Sep 17 00:00:00 2001
+From: Brian Sheridan <btsheridan94@gmail.com>
+Date: Mon, 8 May 2017 15:05:52 +0100
+Subject: [PATCH] Modified EXTRAVERSION to contain "-eudyptula"
+
+Signed-off-by: Brian Sheridan <btsheridan94@gmail.com>
+---
+ Makefile | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Makefile b/Makefile
+index 5e3948a..627053d 100644
+--- a/Makefile
++++ b/Makefile
+@@ -1,7 +1,7 @@
+ VERSION = 4
+ PATCHLEVEL = 11
+ SUBLEVEL = 0
+-EXTRAVERSION =
++EXTRAVERSION = -eudyptula
+ NAME = Fearless Coyote
+ 
+ # *DOCUMENTATION*
+-- 
+2.9.3
+

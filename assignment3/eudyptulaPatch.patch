@@ -1,0 +1,14 @@
+92ed545 Modified EXTRAVERSION to contain "-eudyptula"
+diff --git a/Makefile b/Makefile
+index 5e3948a..627053d 100644
+--- a/Makefile
++++ b/Makefile
+@@ -1,7 +1,7 @@
+ VERSION = 4
+ PATCHLEVEL = 11
+ SUBLEVEL = 0
+-EXTRAVERSION = shackdyptula
++EXTRAVERSION = -eudyptula
+ NAME = Fearless Coyote
+ 
+ # *DOCUMENTATION*
